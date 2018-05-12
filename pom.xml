@@ -27,17 +27,24 @@
   </dependencies>
 
   <distributionManagement>
-    <repository>
-        <id>central</id>
+    
+	  <repository>
+        <id>my-repo</id>
         <name>bdc7-l-60219P9-releases</name>
         <url>http://localhost:8081/artifactory/libs-release-local</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
+		<snapshots>
+		   <enabled>false</enabled>
+        </snapshots>
+	 </repository>
+	 <snapshotRepository>
+        <id>my-repo</id>
         <name>bdc7-l-60219P9-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-release-local</url>
-    </snapshotRepository>
-</distributionManagement>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+		<releases>
+		   <enabled>false</enabled>
+        </releases>
+     </snapshotRepository>
+    </distributionManagement> 
    
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
