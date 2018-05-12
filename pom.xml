@@ -27,10 +27,15 @@
   </dependencies>
 
   <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>bdc7-l-60219P9-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
+    </repository>
     <snapshotRepository>
-        <id>my-repo</id>
+        <id>snapshots</id>
         <name>bdc7-l-60219P9-snapshots</name>
-        <url>http://localhost:8081/artifactory/my-repo</url>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
     </snapshotRepository>
 </distributionManagement>
    
