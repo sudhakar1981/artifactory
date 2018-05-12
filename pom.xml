@@ -74,4 +74,7 @@
       </plugins>
     </pluginManagement>
   </build>
+  <scm>
+    <developerConnection>scm:git:https://github.com/sudhakar1981/artifactory.git</developerConnection>
+  </scm>
 </project>
