@@ -74,7 +74,7 @@
     </pluginManagement>
   </build>
   <scm>
-    <developerConnection>scm:git:https://github.com/sudhakar1981/artifactory.git</developerConnection>
+    <developerConnection>scm:git:https://sudhakar1981:sarala123@github.com/sudhakar1981/artifactory.git</developerConnection>
     <tag>bankloan-1.0</tag>
   </scm>
 </project>
