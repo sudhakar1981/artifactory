@@ -5,7 +5,7 @@
 
   <groupId>com.icicibank.com</groupId>
   <artifactId>bankloan</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
 
   <name>bankloan</name>
   <!-- FIXME change it to the project's website -->
@@ -87,6 +87,6 @@
   </build>
   <scm>
     <developerConnection>scm:git:https://sudhakar1981:sarala123@github.com/sudhakar1981/artifactory.git</developerConnection>
-    <tag>bankloan-1.0</tag>
+    <tag>bankloan-1.1</tag>
   </scm>
 </project>
